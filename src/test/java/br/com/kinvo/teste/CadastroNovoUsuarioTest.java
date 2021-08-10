@@ -28,7 +28,7 @@ public class CadastroNovoUsuarioTest {
 	Assert.assertFalse(paginaHome.getDriver().getCurrentUrl().equals("https://www.kinvo.com.br"));
 	
 	paginaHome.preenchendoInputs(nome, paginaHome.emailRandom(), senha);
-	//Clicar manualmenten no botao de criar conta
+	//Clicar manualmenten no botao de criar conta --captcha is trash
 	paginaHome.clicarNobotaoEscolherPlano();
 	
 	paginaHome.clicarNoBotaoConfirmar();
