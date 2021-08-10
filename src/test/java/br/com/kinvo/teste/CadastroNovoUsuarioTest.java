@@ -11,7 +11,6 @@ public class CadastroNovoUsuarioTest {
     private PaginaHome paginaHome;
 
     private String nome = "teste-usuario";
-    //private String email = "usuario@usuario230.com";
     private String senha = "Senha@01";
 
     @Before
