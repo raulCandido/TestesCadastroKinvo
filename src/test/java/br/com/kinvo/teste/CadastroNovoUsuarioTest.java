@@ -40,7 +40,7 @@ public class CadastroNovoUsuarioTest {
     }
 
     @Test
-    public void deveriaNaoPermitirCadastroDeNovoUsuario() {
+    public void deveriaMostrarMensagensDeErro() {
        
 	paginaHome.clicarNoBotaoInscrever();
 	paginaHome.selecionarAbaCorreta();
